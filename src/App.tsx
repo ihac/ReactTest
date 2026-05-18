@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "./assets/vite.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 py-16 text-zinc-100">
@@ -22,19 +22,18 @@ function App() {
             className="h-16 w-16 animate-[spin_20s_linear_infinite] transition-transform hover:scale-110"
           />
         </a>
-      </div>·
-
+      </div>
+      ·
       <h1 className="mb-3 text-4xl font-semibold tracking-tight sm:text-5xl">
         React + TypeScript + Vite
       </h1>
       <p className="mb-8 max-w-md text-center text-zinc-400">
-        Tailwind CSS is configured. Edit{' '}
+        Tailwind CSS is configured. Edit{" "}
         <code className="rounded bg-zinc-800 px-1.5 py-0.5 font-mono text-sm text-violet-300">
           src/App.tsx
-        </code>{' '}
+        </code>{" "}
         and save to test HMR.
       </p>
-
       <button
         type="button"
         onClick={() => setCount((c) => c + 1)}
@@ -42,9 +41,8 @@ function App() {
       >
         Count is {count}
       </button>
-
       <p className="mt-12 text-sm text-zinc-500">
-        Ready to deploy on{' '}
+        Ready to deploy on{" "}
         <a
           href="https://vercel.com"
           target="_blank"
@@ -55,7 +53,7 @@ function App() {
         </a>
       </p>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
